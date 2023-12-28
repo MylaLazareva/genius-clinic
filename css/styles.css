@@ -1,0 +1,113 @@
+:root {
+  --color-primary-dark: #011c44;
+  --color-primary-light: #2b7fff;
+  --color-primary-white: #fff;
+  --color-black: #000;
+  --color-secondary-dark: #4a4a4a;
+  --color-secondary-light: #747272;
+}
+
+/* Base */
+body {
+  color: var(--color-primary-dark);
+  background: #cec9c0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* body */
+.section-title {
+  color: var(--color-primary-light);
+}
+
+/* header */
+.link {
+  color: var(--color-primary-dark);
+}
+
+.link:hover {
+  color: var(--color-primary-light);
+}
+
+/* hero-section */
+.hero-title {
+  color: var(--color-primary-light);
+}
+
+/* main-section */
+.button-primary {
+  color: var(--color-primary-white);
+  background-color: var(--color-primary-light);
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+  border-radius: 32px;
+  border: 2px solid #2b7fff;
+}
+
+.hero-text {
+  color: var(--color-secondary-dark);
+}
+
+/* about-us */
+
+/* advantages */
+.article-title {
+  /* задати текст невідімим усім h4 */
+}
+
+.article-text {
+  color: var(--color-black);
+}
+
+/* Our procedures */
+.article-title {
+  /* задати текст невідімим усім h4 */
+}
+
+.procedures-text {
+  color: var(--color-primary-white);
+}
+
+/* contact */
+.contact-title {
+  color: var(--color-primary-white);
+}
+
+.form {
+  color: var(--color-primary-white);
+}
+
+.form-rules {
+  color: var(--color-secondary-light);
+}
+
+.footer-link {
+  color: var(--color-primary-white);
+}
+
+.button-secondary {
+  color: var(--color-primary-white);
+  background-color: var(--color-primary-light);
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button-secondary:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+  border-radius: 32px;
+  border: 2px solid var(--color-primary-light);
+}
+
+.footer-rules {
+  color: var(--color-secondary-light);
+}
